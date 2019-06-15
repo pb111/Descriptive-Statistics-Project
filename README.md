@@ -53,3 +53,162 @@ The measures of central tendency and measures of dispersion are used to describe
 
 ===============================================================================
 
+
+## 3. Measures of central tendency
+
+
+**Central tendency** means a central value which describe a probability distribution. It may also be called a center or location of the distribution. The most common measures of central tendency are **mean**, **median** and **mode**. The most common measure of central tendency is the **mean**. For skewed distribution or when there is concern about outliers, the **median** may be preferred. So, **median** is more robust measure than the mean.
+
+
+### Mean
+
+- The most common measure of central tendency is the mean.
+
+- Mean is also known as the simple average.
+
+- It is denoted by greek letter µ for population and by x bar for sample.
+
+- We can find mean of a number of elements by adding all the elements in a dataset and then dividing by the number of elements in the dataset.
+
+- It is the most common measure of central tendency but it has a drawback.
+
+- The mean is affected by the presence of outliers.
+
+- So, mean alone is not enough for making business decisions.
+
+
+### Median
+
+- Median is the number which divides the dataset into two equal halves. 
+
+-To calculate the median, we have to arrange our dataset of n numbers in ascending order.
+
+-The median of this dataset is the number at (n+1)/2 th position, if n is odd.
+
+-If n is even, then the median is the average of the (n/2)th number and (n+2)/2 th number.
+
+-Median is robust to outliers.
+
+-So, for skewed distribution or when there is concern about outliers, the median may be preferred.
+
+
+
+### Mode
+
+
+-Mode of a dataset is the value that occurs most often in the dataset.
+
+-Mode is the value that has the highest frequency of occurrence in the dataset.
+
+
+There is no best measure that give us the complete picture. So, these measures of central tendency (mean, median and mode) should be used together to represent the full picture. 
+
+
+===============================================================================
+
+
+
+
+## 4. Measures of dispersion or variability
+**Dispersion** is an indicator of how far away from the center, we can find the data values. The most common measures of dispersion are **variance**, **standard deviation** and **interquartile range (IQR)**. **Variance** is the standard measure of spread. The **standard deviation** is the square root of the variance. The **variance** and **standard deviation** are two useful measures of spread. 
+
+### Variance
+	Variance measures the dispersion of a set of data points around their mean value.
+	It is the mean of the squares of the individual deviations.
+	Variance gives results in the original units squared.
+
+
+
+### Standard deviation
+	Standard deviation is the most common used measure of variability.
+	It is the square-root of the variance.
+	For Normally distributed data, approximately 95% of the values lie within 2 sd of the mean. 
+	Standard deviation gives results in the original units.
+
+### Coefficient of Variation (CV)
+	Coefficient of Variation (CV) is equal to the standard deviation divided by the mean.
+	It is also known as `relative standard deviation`.
+
+### IQR (Interquartile range)
+	A third measure of spread is the **interquartile range (IQR)**.
+	The IQR is calculated using the boundaries of data situated between the 1st and the 3rd quartiles. 
+	The interquartile range (IQR) can be calculated as follows:-
+       IQR = Q3 – Q1
+	In the same way that the median is more robust than the mean, the IQR is a more robust measure of spread than variance and standard deviation and should therefore be preferred for small or asymmetrical distributions. 
+	It is a robust measure of spread.
+
+
+### Measures of shape
+Now, we will take a look at measures of shape of distribution. There are two statistical measures that can tell us about the shape of the distribution. These measures are **skewness** and **kurtosis**. These measures can be used to convey information about the shape of the distribution of the dataset.
+
+
+### Skewness
+	**Skewness** is a measure of a distribution's symmetry or more precisely lack of symmetry. 
+	It is used to mean the absence of symmetry from the mean of the dataset. 
+	It is a characteristic of the deviation from the mean. 
+	It is used to indicate the shape of the distribution of data.
+
+### Negative skewness
+	Negative values for skewness indicate negative skewness. 
+	In this case, the data are skewed or tail to left. 
+	By skewed left, we mean that the left tail is long relative to the right tail. 
+	The data values may extend further to the left but concentrated in the right. 
+	So, there is a long tail and distortion is caused by extremely small values which pull the mean downward so that it is less than the median. 
+	Hence, in this case we have
+      **Mean < Median < Mode**
+
+### Zero skewness
+	Zero skewness means skewness value of zero. 
+	It means the dataset is symmetrical. 
+	A data set is symmetrical if it looks the same to the left and right to the center point. 
+	The dataset looks bell shaped or symmetrical. 
+	A perfectly symmetrical data set will have a skewness of zero. 
+	So, the normal distribution which is perfectly symmetrical has a skewness of 0. 
+	So, in this case, we have
+      **Mean = Median = Mode**
+
+### Positive skewness
+	Positive values for skewness indicate positive skewness. 
+	The dataset are skewed or tail to right. 
+	By skewed right, we mean that the right tail is long relative to the left tail. 
+	The data values are concentrated in the right. 
+	So, there is a long tail to the right that is caused by extremely large values which pull the mean upward so that it is greater than the median. 
+	So, we have
+
+       **Mean > Median > Mode**
+
+### Reference range on skewness values
+The rule of thumb for skewness values are:
+	If the skewness is between -0.5 and 0.5, the data are fairly symmetrical.
+	If the skewness is between -1 and – 0.5 or between 0.5 and 1, the data are moderately skewed.
+
+	If the skewness is less than -1 or greater than 1, the data are highly skewed.
+
+### Kurtosis
+	Kurtosis is the degree of peakedness of a distribution. 
+	Data sets with high kurtosis tend to have a distinct peak near the mean, decline rather rapidly and have heavy tails.
+
+	Data sets with low kurtosis tend to have a flat top near the mean rather than a sharp peak. 
+
+### Reference range for kurtosis
+	The reference standard is a normal distribution, which has a kurtosis of 3. 
+	Often, **excess kurtosis** is presented instead of kurtosis, where **excess kurtosis** is simply **kurtosis - 3**. 
+
+### Mesokurtic curve
+	A normal distribution has kurtosis exactly 3 (**excess kurtosis** exactly 0). 
+	Any distribution with kurtosis ≈3 (excess ≈ 0) is called **mesokurtic**.
+
+### Platykurtic curve
+	A distribution with kurtosis < 3 (**excess kurtosis** < 0) is called **platykurtic**. 
+	As compared to a normal distribution, its central peak is lower and broader, and its tails are shorter and thinner.
+
+### Leptokurtic curve
+
+	A distribution with kurtosis > 3 (**excess kurtosis** > 0) is called **leptokurtic**. 
+	As compared to a normal distribution, its central peak is higher and sharper, and its tails are longer and fatter.
+
+
+### Summary
+So far, we have looked at the measures of central tendency of the data which include `mean`, `median` and `mode`. Also, we have taken a look at measures of spread of the data which consists of `variance`, `standard deviation`, `interquartile range (IQR)`, `minimum` and `maximum` values. We have also discussed `skewness` and `kurtosis` as measures of shape. These quantities can only be used for quantitative variables not for categorical variables.
+
+
