@@ -114,10 +114,13 @@ are **variance**, **standard deviation** and **interquartile range (IQR)**. **Va
 - Standard deviation gives results in the original units.
 
 
+
 ### Coefficient of Variation (CV)
 	
 - Coefficient of Variation (CV) is equal to the standard deviation divided by the mean.
 - It is also known as `relative standard deviation`.
+
+
 
 
 ### IQR (Interquartile range)
@@ -132,9 +135,13 @@ are **variance**, **standard deviation** and **interquartile range (IQR)**. **Va
 - It is a robust measure of spread.
 
 
+
+
 ### Measures of shape
 
 Now, we will take a look at measures of shape of distribution. There are two statistical measures that can tell us about the shape of the distribution. These measures are **skewness** and **kurtosis**. These measures can be used to convey information about the shape of the distribution of the dataset.
+
+
 
 
 ### Skewness
@@ -145,7 +152,7 @@ Now, we will take a look at measures of shape of distribution. There are two sta
 - It is used to indicate the shape of the distribution of data.
 
 
-### Negative skewness
+#### Negative skewness
 	
 - Negative values for skewness indicate negative skewness. 
 - In this case, the data are skewed or tail to left. 
@@ -156,7 +163,7 @@ Now, we will take a look at measures of shape of distribution. There are two sta
       **Mean < Median < Mode**
 
 
-### Zero skewness
+#### Zero skewness
 
 - Zero skewness means skewness value of zero. 
 - It means the dataset is symmetrical. 
@@ -168,7 +175,7 @@ Now, we will take a look at measures of shape of distribution. There are two sta
       **Mean = Median = Mode**
 
 
-### Positive skewness
+#### Positive skewness
 
 - Positive values for skewness indicate positive skewness. 
 - The dataset are skewed or tail to right. 
@@ -179,13 +186,15 @@ Now, we will take a look at measures of shape of distribution. There are two sta
        **Mean > Median > Mode**
 
 
-### Reference range on skewness values
+#### Reference range on skewness values
 
 The rule of thumb for skewness values are:
 
 - If the skewness is between -0.5 and 0.5, the data are fairly symmetrical.
 - If the skewness is between -1 and – 0.5 or between 0.5 and 1, the data are moderately skewed.
 - If the skewness is less than -1 or greater than 1, the data are highly skewed.
+
+
 
 
 ### Kurtosis
@@ -195,25 +204,25 @@ The rule of thumb for skewness values are:
 - Data sets with low kurtosis tend to have a flat top near the mean rather than a sharp peak. 
 
 
-### Reference range for kurtosis
+#### Reference range for kurtosis
 
 - The reference standard is a normal distribution, which has a kurtosis of 3. 
 - Often, **excess kurtosis** is presented instead of kurtosis, where **excess kurtosis** is simply **kurtosis - 3**. 
 
 
-### Mesokurtic curve
+#### Mesokurtic curve
 
 - A normal distribution has kurtosis exactly 3 (**excess kurtosis** exactly 0). 
 - Any distribution with kurtosis ≈3 (excess ≈ 0) is called **mesokurtic**.
 
 
-### Platykurtic curve
+#### Platykurtic curve
 
 - A distribution with kurtosis < 3 (**excess kurtosis** < 0) is called **platykurtic**. 
 - As compared to a normal distribution, its central peak is lower and broader, and its tails are shorter and thinner.
 
 
-### Leptokurtic curve
+#### Leptokurtic curve
 
 - A distribution with kurtosis > 3 (**excess kurtosis** > 0) is called **leptokurtic**. 
 - As compared to a normal distribution, its central peak is higher and sharper, and its tails are longer and fatter.
