@@ -247,10 +247,45 @@ The rule of thumb for skewness values are:
 
 ### Summary
 
-So far, we have looked at the measures of central tendency of the data which include `mean`, `median` and `mode`. Also, we have taken a look at measures of spread of the data which consists of `variance`, `standard deviation`, `interquartile range (IQR)`, `minimum` and `maximum` values. We have also discussed `skewness` and `kurtosis` as measures of shape. These quantities can only be used for quantitative variables not for categorical variables.
+So far, we have looked at the measures of central tendency of the data which include `mean`, `median` and `mode`. Also, we have taken 
+a look at measures of spread of the data which consists of `variance`, `standard deviation`, `interquartile range (IQR)`, `minimum` and `maximum` values. We have also discussed `skewness` and `kurtosis` as measures of shape. These quantities can only be used for quantitative variables not for categorical variables.
 
 
 ===============================================================================
 
 
+## 5. Dataset description
+
+I have used the `fortune 500 dataset` for this project. I have downloaded this dataset from the data world website. This data set 
+can be downloaded from the following url:–
+
+
+https://data.world/alexandra/fortune-500
+
+
+The data set consists of revenue and profit figures of fortune 500 companies along with their rank.
+
+
+===============================================================================
+
+
+## 6. Results and conclusion
+
+
+===============================================================================
+
+
+## 7. References
+
+The work done in this project is inspired from the following books and websites:-
+
+1.	Think Stats – Exploratory Data Analysis in Python by Allen B. Downey
+
+2.	Udemy course – Statistics for Data Science
+
+3.	https://en.wikipedia.org/wiki/Descriptive_statistics 
+
+4.	https://www.investopedia.com/terms/d/descriptive_statistics.asp
+
+5.	https://socialresearchmethods.net/kb/statdesc.php
 
