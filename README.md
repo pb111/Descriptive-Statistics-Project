@@ -152,6 +152,11 @@ are **variance**, **standard deviation** and **interquartile range (IQR)**. **Va
 - It is a robust measure of spread.
 
 
+### Minimum and maximum values
+
+- Minimum and maximum values are self-explanatory.
+- These are the minimum and maximum values in the data set.
+
 
 
 ### Measures of shape
