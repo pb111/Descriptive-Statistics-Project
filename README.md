@@ -101,35 +101,35 @@ are **variance**, **standard deviation** and **interquartile range (IQR)**. **Va
 
 ### Variance
 
--Variance measures the dispersion of a set of data points around their mean value.
--It is the mean of the squares of the individual deviations.
--Variance gives results in the original units squared.
+- Variance measures the dispersion of a set of data points around their mean value.
+- It is the mean of the squares of the individual deviations.
+- Variance gives results in the original units squared.
 
 
 ### Standard deviation
 	
--Standard deviation is the most common used measure of variability.
--It is the square-root of the variance.
--For Normally distributed data, approximately 95% of the values lie within 2 sd of the mean. 
--Standard deviation gives results in the original units.
+- Standard deviation is the most common used measure of variability.
+- It is the square-root of the variance.
+- For Normally distributed data, approximately 95% of the values lie within 2 sd of the mean. 
+- Standard deviation gives results in the original units.
 
 
 ### Coefficient of Variation (CV)
 	
--Coefficient of Variation (CV) is equal to the standard deviation divided by the mean.
--It is also known as `relative standard deviation`.
+- Coefficient of Variation (CV) is equal to the standard deviation divided by the mean.
+- It is also known as `relative standard deviation`.
 
 
 ### IQR (Interquartile range)
 
--A third measure of spread is the **interquartile range (IQR)**.
--The IQR is calculated using the boundaries of data situated between the 1st and the 3rd quartiles. 
--The interquartile range (IQR) can be calculated as follows:-
+- A third measure of spread is the **interquartile range (IQR)**.
+- The IQR is calculated using the boundaries of data situated between the 1st and the 3rd quartiles. 
+- The interquartile range (IQR) can be calculated as follows:-
 
        IQR = Q3 – Q1
        
--In the same way that the median is more robust than the mean, the IQR is a more robust measure of spread than variance and standard deviation and should therefore be preferred for small or asymmetrical distributions. 
--It is a robust measure of spread.
+- In the same way that the median is more robust than the mean, the IQR is a more robust measure of spread than variance and standard deviation and should therefore be preferred for small or asymmetrical distributions. 
+- It is a robust measure of spread.
 
 
 ### Measures of shape
@@ -139,43 +139,43 @@ Now, we will take a look at measures of shape of distribution. There are two sta
 
 ### Skewness
 	
--**Skewness** is a measure of a distribution's symmetry or more precisely lack of symmetry. 
--It is used to mean the absence of symmetry from the mean of the dataset. 
--It is a characteristic of the deviation from the mean. 
--It is used to indicate the shape of the distribution of data.
+- **Skewness** is a measure of a distribution's symmetry or more precisely lack of symmetry. 
+- It is used to mean the absence of symmetry from the mean of the dataset. 
+- It is a characteristic of the deviation from the mean. 
+- It is used to indicate the shape of the distribution of data.
 
 
 ### Negative skewness
 	
--Negative values for skewness indicate negative skewness. 
--In this case, the data are skewed or tail to left. 
--By skewed left, we mean that the left tail is long relative to the right tail. 
--The data values may extend further to the left but concentrated in the right. 
--So, there is a long tail and distortion is caused by extremely small values which pull the mean downward so that it is less than the median. 
--Hence, in this case we have
+- Negative values for skewness indicate negative skewness. 
+- In this case, the data are skewed or tail to left. 
+- By skewed left, we mean that the left tail is long relative to the right tail. 
+- The data values may extend further to the left but concentrated in the right. 
+- So, there is a long tail and distortion is caused by extremely small values which pull the mean downward so that it is less than the median. 
+- Hence, in this case we have
       **Mean < Median < Mode**
 
 
 ### Zero skewness
 
--Zero skewness means skewness value of zero. 
--It means the dataset is symmetrical. 
--A data set is symmetrical if it looks the same to the left and right to the center point. 
--The dataset looks bell shaped or symmetrical. 
--A perfectly symmetrical data set will have a skewness of zero. 
--So, the normal distribution which is perfectly symmetrical has a skewness of 0. 
--So, in this case, we have
+- Zero skewness means skewness value of zero. 
+- It means the dataset is symmetrical. 
+- A data set is symmetrical if it looks the same to the left and right to the center point. 
+- The dataset looks bell shaped or symmetrical. 
+- A perfectly symmetrical data set will have a skewness of zero. 
+- So, the normal distribution which is perfectly symmetrical has a skewness of 0. 
+- So, in this case, we have
       **Mean = Median = Mode**
 
 
 ### Positive skewness
 
--Positive values for skewness indicate positive skewness. 
--The dataset are skewed or tail to right. 
--By skewed right, we mean that the right tail is long relative to the left tail. 
--The data values are concentrated in the right. 
--So, there is a long tail to the right that is caused by extremely large values which pull the mean upward so that it is greater than the median. 
--So, we have
+- Positive values for skewness indicate positive skewness. 
+- The dataset are skewed or tail to right. 
+- By skewed right, we mean that the right tail is long relative to the left tail. 
+- The data values are concentrated in the right. 
+- So, there is a long tail to the right that is caused by extremely large values which pull the mean upward so that it is greater than the median. 
+- So, we have
        **Mean > Median > Mode**
 
 
@@ -183,40 +183,40 @@ Now, we will take a look at measures of shape of distribution. There are two sta
 
 The rule of thumb for skewness values are:
 
--If the skewness is between -0.5 and 0.5, the data are fairly symmetrical.
--If the skewness is between -1 and – 0.5 or between 0.5 and 1, the data are moderately skewed.
--If the skewness is less than -1 or greater than 1, the data are highly skewed.
+- If the skewness is between -0.5 and 0.5, the data are fairly symmetrical.
+- If the skewness is between -1 and – 0.5 or between 0.5 and 1, the data are moderately skewed.
+- If the skewness is less than -1 or greater than 1, the data are highly skewed.
 
 
 ### Kurtosis
 
--Kurtosis is the degree of peakedness of a distribution. 
--Data sets with high kurtosis tend to have a distinct peak near the mean, decline rather rapidly and have heavy tails.
--Data sets with low kurtosis tend to have a flat top near the mean rather than a sharp peak. 
+- Kurtosis is the degree of peakedness of a distribution. 
+- Data sets with high kurtosis tend to have a distinct peak near the mean, decline rather rapidly and have heavy tails.
+- Data sets with low kurtosis tend to have a flat top near the mean rather than a sharp peak. 
 
 
 ### Reference range for kurtosis
 
--The reference standard is a normal distribution, which has a kurtosis of 3. 
--Often, **excess kurtosis** is presented instead of kurtosis, where **excess kurtosis** is simply **kurtosis - 3**. 
+- The reference standard is a normal distribution, which has a kurtosis of 3. 
+- Often, **excess kurtosis** is presented instead of kurtosis, where **excess kurtosis** is simply **kurtosis - 3**. 
 
 
 ### Mesokurtic curve
 
--A normal distribution has kurtosis exactly 3 (**excess kurtosis** exactly 0). 
--Any distribution with kurtosis ≈3 (excess ≈ 0) is called **mesokurtic**.
+- A normal distribution has kurtosis exactly 3 (**excess kurtosis** exactly 0). 
+- Any distribution with kurtosis ≈3 (excess ≈ 0) is called **mesokurtic**.
 
 
 ### Platykurtic curve
 
--A distribution with kurtosis < 3 (**excess kurtosis** < 0) is called **platykurtic**. 
--As compared to a normal distribution, its central peak is lower and broader, and its tails are shorter and thinner.
+- A distribution with kurtosis < 3 (**excess kurtosis** < 0) is called **platykurtic**. 
+- As compared to a normal distribution, its central peak is lower and broader, and its tails are shorter and thinner.
 
 
 ### Leptokurtic curve
 
--A distribution with kurtosis > 3 (**excess kurtosis** > 0) is called **leptokurtic**. 
--As compared to a normal distribution, its central peak is higher and sharper, and its tails are longer and fatter.
+- A distribution with kurtosis > 3 (**excess kurtosis** > 0) is called **leptokurtic**. 
+- As compared to a normal distribution, its central peak is higher and sharper, and its tails are longer and fatter.
 
 
 ### Summary
