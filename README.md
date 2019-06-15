@@ -21,8 +21,10 @@ Descriptive statistics gives us the basic summary measures about the dataset.  T
        -	Coefficient of variation
        -	IQR (Interquartile range)
        -	Skewness
-       -	Kurtosis
-
+       -	Kurtosis   
+5.     Dataset description
+6.     Results and conclusion
+7.     References
 
 
 ===============================================================================
