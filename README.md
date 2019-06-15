@@ -74,17 +74,17 @@ in the dataset.
 ### Median
 
 - Median is the number which divides the dataset into two equal halves. 
--To calculate the median, we have to arrange our dataset of n numbers in ascending order.
--The median of this dataset is the number at (n+1)/2 th position, if n is odd.
--If n is even, then the median is the average of the (n/2)th number and (n+2)/2 th number.
--Median is robust to outliers.
--So, for skewed distribution or when there is concern about outliers, the median may be preferred.
+- To calculate the median, we have to arrange our dataset of n numbers in ascending order.
+- The median of this dataset is the number at (n+1)/2 th position, if n is odd.
+- If n is even, then the median is the average of the (n/2)th number and (n+2)/2 th number.
+- Median is robust to outliers.
+- So, for skewed distribution or when there is concern about outliers, the median may be preferred.
 
 
 ### Mode
 
--Mode of a dataset is the value that occurs most often in the dataset.
--Mode is the value that has the highest frequency of occurrence in the dataset.
+- Mode of a dataset is the value that occurs most often in the dataset.
+- Mode is the value that has the highest frequency of occurrence in the dataset.
 
 
 There is no best measure that give us the complete picture. So, these measures of central tendency (mean, median and mode) should be used together to represent the full picture. 
