@@ -9,22 +9,22 @@ Descriptive statistics gives us the basic summary measures about the dataset.  T
 
 ## Table of Contents
 
-1.	Introduction to descriptive statistics
-2.	Sample vs Population
-3.	Measures of central tendency
+1. Introduction to descriptive statistics
+2. Sample vs Population
+3. Measures of central tendency
        -	Mean
        -	Median
        -	Mode
-4.	Measures of dispersion
+4. Measures of dispersion
        -	Variance
        -	Standard deviation
        -	Coefficient of variation
        -	IQR (Interquartile range)
        -	Skewness
        -	Kurtosis   
-5.      Dataset description
-6.      Results and conclusion
-7.      References
+5. Dataset description
+6. Results and conclusion
+7. References
 
 
 ===============================================================================
