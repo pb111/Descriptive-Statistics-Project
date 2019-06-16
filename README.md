@@ -87,6 +87,11 @@ in the dataset.
 - The mean is affected by the presence of outliers.
 - So, mean alone is not enough for making business decisions.
 
+The formulae for calculating population and sample mean is given in the following diagram-
+
+
+![Population and Sample Mean](https://github.com/pb111/Descriptive-Statistics-Project/blob/master/Images/Population%20vs%20Sample%20Mean.png)
+
 
 ### Median
 
@@ -98,6 +103,12 @@ in the dataset.
 - So, for skewed distribution or when there is concern about outliers, the median may be preferred.
 
 
+The formulae for calculating median is as follows-
+
+
+![Median](https://github.com/pb111/Descriptive-Statistics-Project/blob/master/Images/Median.png)
+
+
 ### Mode
 
 - Mode of a dataset is the value that occurs most often in the dataset.
@@ -105,6 +116,12 @@ in the dataset.
 
 
 There is no best measure that give us the complete picture. So, these measures of central tendency (mean, median and mode) should be used together to represent the full picture. 
+
+
+The mode is depicted in the following diagram-
+
+
+![Mode](https://github.com/pb111/Descriptive-Statistics-Project/blob/master/Images/Mode.png)
 
 
 ===============================================================================
