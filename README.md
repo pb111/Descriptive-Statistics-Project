@@ -169,6 +169,12 @@ are **variance**, **standard deviation** and **interquartile range (IQR)**. **Va
 - It is a robust measure of spread.
 
 
+The IQR is depicted in the following diagram-
+
+
+![IQR](https://github.com/pb111/Descriptive-Statistics-Project/blob/master/Images/IQR.png)
+
+
 ### Minimum and maximum values
 
 - Minimum and maximum values are self-explanatory.
@@ -223,6 +229,12 @@ Now, we will take a look at measures of shape of distribution. There are two sta
 - So, there is a long tail to the right that is caused by extremely large values which pull the mean upward so that it is greater than the median. 
 - So, we have
        **Mean > Median > Mode**
+       
+       
+The skewness is depicted in the following diagram-
+
+
+![Skewness](https://github.com/pb111/Descriptive-Statistics-Project/blob/master/Images/Skewness.jpeg)
 
 
 #### Reference range on skewness values
@@ -249,6 +261,12 @@ The rule of thumb for skewness values are:
 - Often, **excess kurtosis** is presented instead of kurtosis, where **excess kurtosis** is simply **kurtosis - 3**. 
 
 
+Positive and negative kurtosis is depicted in the following diagram-
+
+
+![Positive and negative kurtosis](https://github.com/pb111/Descriptive-Statistics-Project/blob/master/Images/Positive%20and%20negative%20kurtosis.jpg)
+
+
 #### Mesokurtic curve
 
 - A normal distribution has kurtosis exactly 3 (**excess kurtosis** exactly 0). 
@@ -265,6 +283,12 @@ The rule of thumb for skewness values are:
 
 - A distribution with kurtosis > 3 (**excess kurtosis** > 0) is called **leptokurtic**. 
 - As compared to a normal distribution, its central peak is higher and sharper, and its tails are longer and fatter.
+
+
+These curves are depicted in the following diagram-
+
+
+![Lepto, Meso and Platy kurtic Curves](https://github.com/pb111/Descriptive-Statistics-Project/blob/master/Images/Lepto%2C%20Meso%20and%20Platy%20kurtic.jpg)
 
 
 ### Summary
