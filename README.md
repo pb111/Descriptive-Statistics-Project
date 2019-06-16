@@ -318,6 +318,16 @@ The data set consists of revenue and profit figures of fortune 500 companies alo
 ## 6. Results and conclusion
 
 
+1.	In this project, I describe the descriptive statistics that are used to summarize a dataset. 
+2.	In particular, I have described the measures of central tendency (mean, median and mode). I have also described the measures of dispersion or variability (variance, standard deviation, coefficient of variation, minimum and maximum values, IQR) and measures of shape (skewness and kurtosis).
+3.	I have demonstrated how to calculate the summary statistics with `describe()` function.
+4.	I have computed the measures of central tendency-mean, median and mode for the `Revenue (in millions)`variable. I have found `mean > median > mode`. So, the distribution of `Revenue (in millions)` is positively skewed. I have plotted its distribution to confirm the same.
+5.	I have computed the measures of dispersion or variability-range, variance, standard-deviation, median and IQR for the `Revenue (in millions)`variable.
+6.	I have also computed the measures of shape-skewness and kurtosis for the `Revenue (in millions)`variable.
+7.	I find the skewness to be 9.3267. So, it is greater than 1. Hence, we can conclude that the `Revenue (in millions)` data is highly skewed.
+8.	I find the kurtosis to be 132.0456. So, it is greater than 3 and so excess kurtosis > 0. Hence, we can conclude that the `Revenue (in millions)` curve is a leptokurtic curve. As compared to a normal distribution, its central peak is higher and sharper, and its tails are longer and fatter.
+
+
 ===============================================================================
 
 
@@ -334,4 +344,8 @@ The work done in this project is inspired from the following books and websites:
 4.	https://www.investopedia.com/terms/d/descriptive_statistics.asp
 
 5.	https://socialresearchmethods.net/kb/statdesc.php
+
+6.	https://blog.usejournal.com/descriptive-statistics-with-python-6c7acb1d3671
+
+
 
